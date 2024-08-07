@@ -8,4 +8,4 @@ A solução escolhida pela comunidade foi o uso do módulo unittest do Python co
 
 ## Documentação
 
-Para mais detalhes, consulte o [relatório completo em PDF]().
+Para mais detalhes, consulte o [relatório completo em PDF](https://github.com/Jorgelucasmota/Teste_Software_2024_Sousa_Jorge/blob/main/Jorge_Sousa_atividade_1.pdf).
