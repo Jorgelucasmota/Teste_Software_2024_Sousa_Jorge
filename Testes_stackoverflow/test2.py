@@ -1,10 +1,10 @@
 import unittest
 
-class TestExample2(unittest.TestCase):
-    def test_multiplication(self):
+class TesteExemplo2(unittest.TestCase):
+    def teste_multiplicacao(self):
         self.assertEqual(2 * 2, 4)
 
-    def test_division(self):
+    def teste_divisao(self):
         self.assertEqual(4 / 2, 2)
 
 if __name__ == "__main__":

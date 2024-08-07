@@ -1,10 +1,10 @@
 import unittest
 
-class TestExample1(unittest.TestCase):
-    def test_addition(self):
+class TesteExemplo1(unittest.TestCase):
+    def teste_adicao(self):
         self.assertEqual(1 + 1, 2)
 
-    def test_subtraction(self):
+    def teste_subtracao(self):
         self.assertEqual(2 - 1, 1)
 
 if __name__ == "__main__":

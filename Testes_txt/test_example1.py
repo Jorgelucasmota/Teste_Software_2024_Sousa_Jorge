@@ -1,20 +1,20 @@
 import unittest
 
-class TestExample1(unittest.TestCase):
-    def test_addition(self):
-        print("Running Test: test_addition")
+class TesteExemplo1(unittest.TestCase):
+    def teste_adicao(self):
+        print("Executando Teste: teste_adicao")
         self.assertEqual(1 + 1, 2)
-        print("test_addition passed")
+        print("teste_adicao passou")
 
-    def test_subtraction(self):
-        print("Running Test: test_subtraction")
+    def teste_subtracao(self):
+        print("Executando Teste: teste_subtracao")
         self.assertEqual(2 - 1, 1)
-        print("test_subtraction passed")
+        print("teste_subtracao passou")
 
-    def test_addition_failure(self):
-        print("Running Test: test_addition_failure")
+    def teste_falha_adicao(self):
+        print("Executando Teste: teste_falha_adicao")
         self.assertEqual(1 + 1, 3)  # Este teste irá falhar
-        print("test_addition_failure passed")
+        print("teste_falha_adicao passou")
 
 if __name__ == "__main__":
     unittest.main()
